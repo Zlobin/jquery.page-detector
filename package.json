@@ -1,0 +1,72 @@
+{
+  "name": "jquery.page-detector",
+  "description": "jquery.page-detector",
+  "version": "1.0.0",
+  "main": "src/jquery.page-detector.js",
+  "author": {
+    "name": "Eugene Zlobin",
+    "email": "creastar@gmail.com",
+    "web": "http://zlobin.pro/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zlobin/jquery.page-detector.git"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ansi-regex": "^2.0.0",
+    "decompress": "^3.0.0",
+    "del": "^2.2.0",
+    "each-async": "^1.1.1",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^2.0.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-ignore": "^2.0.1",
+    "gulp-install": "^0.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^3.0.4",
+    "gulp-util": "^3.0.7",
+    "inherits": "^2.0.1",
+    "jshint-stylish": "^2.1.0",
+    "lodash._isnative": "^2.4.1",
+    "lodash._objecttypes": "^2.4.1",
+    "lodash._setbinddata": "^2.4.1",
+    "lodash._shimkeys": "^2.4.1",
+    "lodash.isobject": "^3.0.2",
+    "lolex": "^1.4.0",
+    "lru-cache": "^4.0.0",
+    "minimatch": "^3.0.0",
+    "opn": "^3.0.3",
+    "readable-stream": "~2.0.5",
+    "request": "^2.67.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "sigmund": "^1.0.1",
+    "source-map": "^0.5.3",
+    "through2": "^2.0.0",
+    "uuid": "^2.0.1",
+    "wiredep": "^3.0.0",
+    "wrappy": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.0"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "install": "gulp build"
+  }
+}
